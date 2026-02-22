@@ -51,10 +51,10 @@ const IftarMap = ({ spots, flyTo, onMapClick }: IftarMapProps) => {
 
     const map = L.map(containerRef.current, {
       zoomControl: false,
-      maxBounds: [[22.55, 89.65], [22.85, 89.85]],
+      maxBounds: [[22.0, 89.0], [23.2, 90.2]],
       maxBoundsViscosity: 1.0,
-      minZoom: 12,
-    }).setView([22.6512, 89.7851], 13);
+      minZoom: 10,
+    }).setView([22.75, 89.55], 10);
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: "© OpenStreetMap",
