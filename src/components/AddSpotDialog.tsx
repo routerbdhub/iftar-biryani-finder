@@ -120,7 +120,7 @@ const AddSpotDialog = ({
       <DialogTrigger asChild>
         <Button
           size="lg"
-          className="fixed bottom-28 right-4 z-[1000] rounded-full h-14 w-14 shadow-2xl bg-primary hover:bg-primary/90 p-0"
+          className="fixed bottom-36 right-4 z-[1001] rounded-full h-14 w-14 shadow-2xl bg-primary hover:bg-primary/90 p-0"
         >
           <Plus className="h-7 w-7" />
         </Button>
